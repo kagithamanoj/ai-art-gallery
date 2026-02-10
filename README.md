@@ -1,72 +1,39 @@
-# 🎨 AI Art Gallery
+# ai-art-gallery
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+Curated collection of AI art prompts, style references, and prompt engineering techniques. This repository focuses on high-quality generation for Stable Diffusion, Midjourney, and DALL-E.
 
-> Curated AI art prompts, style guides, and prompt engineering techniques for Stable Diffusion, DALL-E, and Midjourney.
+## Directory Structure
 
-## 🎯 What's Inside
-
-```
+```text
 ai-art-gallery/
 ├── prompts/
-│   ├── prompt-engineering-guide.md   # The anatomy of a perfect prompt
-│   └── curated-prompts.md            # Tested, copy-paste-ready prompts
+│   ├── prompt-engineering-guide.md   # Structural analysis of prompt design
+│   ├── curated-prompts.md            # Field-tested prompt templates
+│   └── [category-files].md           # Category-specific prompt libraries
 ├── styles/
-│   └── style-reference.md            # Art styles, palettes, composition
-└── gallery/                          # Your generated artwork (gitignored)
+│   └── style-reference.md            # Reference for artists, lighting, and composition
+└── gallery/                          # Local generations (gitignored)
 ```
 
-## 📖 Quick Start
+## Quick Start
 
-### 1. Learn the Formula
-Every great AI art prompt follows:
-```
-[Subject] + [Style] + [Medium] + [Lighting] + [Quality Modifiers]
-```
+### 1. The Prompt Formula
+Effective prompt engineering follows a specific structural hierarchy:
+`[Subject] + [Style] + [Medium] + [Lighting] + [Composition] + [Quality Modifiers]`
 
-Read the full guide: [prompts/prompt-engineering-guide.md](prompts/prompt-engineering-guide.md)
+See `prompts/prompt-engineering-guide.md` for the full breakdown.
 
-### 2. Browse Curated Prompts
-Copy-paste ready prompts organized by category:
-- 🌆 Cyberpunk & Sci-Fi
-- 🏔️ Fantasy & Nature
-- 🎨 Abstract & Artistic
-- 🏛️ Architecture & Design
+### 2. Ready-to-Use Prompts
+The library contains over 2,000 prompts across 12+ categories, including image generation, chatbot personas, and industry-specific workflows.
 
-See: [prompts/curated-prompts.md](prompts/curated-prompts.md)
+### 3. Style References
+A dedicated guide for choosing art styles, technical camera settings, and color palettes can be found in `styles/style-reference.md`.
 
-### 3. Reference Styles
-Art styles, artist references, color palettes, camera angles:
+## Usage
 
-See: [styles/style-reference.md](styles/style-reference.md)
-
-## 🎯 Example Prompt
-
-```
-Sprawling cyberpunk megacity at night, towering holographic advertisements,
-rain-soaked streets reflecting neon lights in pink and cyan,
-flying vehicles in traffic lanes above, street vendors with glowing signs,
-digital art, cinematic composition, volumetric lighting, 8K,
-trending on artstation
-```
-
-## 🖼️ Gallery
-
-Generated artworks go in the `gallery/` directory (excluded from git).
-Add your best generations and document the prompts that created them!
-
-## 🤝 Contributing
-
-- Add new prompts to the appropriate category
-- Share before/after prompt iterations
-- Add new style references
-- Contribute model-specific tips
-
-## 📄 License
-
-MIT — see [LICENSE](LICENSE).
+Standard categories are available in the `prompts/` directory. For example, to generate a high-end cinematic city scape, refer to the `image-generation` category.
 
 ---
 
-**Curated by** [Manoj Kumar Kagitha](https://github.com/kagithamanoj) 🎨
+**Manoj Kumar Kagitha**
+[GitHub](https://github.com/kagithamanoj)
